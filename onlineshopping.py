@@ -10,7 +10,7 @@ from Bot.starting import start_router
 
 
 
-BOT_token="7616437670:AAFKGc9Hl4W4S3JfPV5bFtaOmRDkgKW4fJg"
+BOT_token="bot_token"
 dp=Dispatcher()
 bot=Bot(token=BOT_token)
 dp.include_router(s_router)
